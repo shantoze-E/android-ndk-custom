@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [armv7a-linux-androideabi, aarch64-linux-android, i686-linux-android, x86_64-linux-android]
+        target: [armv7a-linux-androideabi]
     steps:
       - name: Checkout android-ndk-custom
         uses: actions/checkout@v4
